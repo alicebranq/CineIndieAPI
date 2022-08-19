@@ -2,15 +2,17 @@
 
 
 # *CineIndie* API
- A ideia era a criação do produto mínimo viável de uma API Rest para web sites de cinemas independentes. 
-API Rest com CRUD das operações no padrão HTTP que faz requisições ao "Cinema da Resilia"
+ Nesse projeto, a ideia era a criação do produto mínimo viável de uma API Rest para web sites de cinemas independentes. A idealização do projeto surgiu a partir da problemática dos grandes cinemas tomando conta do mercado e deixando aqueles com filmes de nicho menos popularizados, muitas vezes categorizados como "filmes cult", atrás das sombras. Com isso, pensamos na criação de uma plataforma para auxiliar os empreendedores e micro empreendedores donos de cinemas independentes a alcançarem um público digital.
+ 
+ Nossa aplicação contém, incialmente, quatro entidades, que foram pensadas a partir da relevância que teriam nos cinemas atualmente. São elas: Filmes, Ingressos, Salas e Combos. Completamos a API Rest com CRUD das operações no padrão HTTP para fazermos requisições a plataforma do cinema, podendo acessar, adicionar, atualizar e deletar os elementos de cada entidade.
 
 ## Como utilizar nossa aplicação
-  Em seu terminal e na pasta que deseja utilizar a aplicação, dê git clone em nosso projeto:
+  O primeiro passo é, em seu terminal e na pasta que deseja utilizar a aplicação, dê git clone em nosso projeto:
   
 ```
 https://github.com/mirnatetzner/API-Cinema-da-Resilia.git
 ```
+
 Além disso, para o funcionamento correto da aplicação, é preciso instalar as dependências utilizadas. Estas foram: **Express**, **SQLite3**, **Dotenv**, **Path** e **Url**. Para isso, você pode utilizar o comando simplificado:
 ```
 npm i
