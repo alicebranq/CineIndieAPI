@@ -1,8 +1,13 @@
-![image](https://user-images.githubusercontent.com/102565368/182753604-143dd23a-6ee2-4ba1-a283-f61c0cbe9457.png)
+<div align='center'>
+	<img src='https://user-images.githubusercontent.com/102565368/188516080-c98b2838-255b-4c40-be0d-e80f7879d03c.png' width=500px>
+</div>
 
+<br> 
 
-# *CineIndie* API
- Nesse projeto, a ideia era a criação do produto mínimo viável de uma API Rest para web sites de cinemas independentes. A idealização do projeto surgiu a partir da problemática dos grandes cinemas tomando conta do mercado e deixando aqueles com filmes de nicho menos popularizados, muitas vezes categorizados como "filmes cult", atrás das sombras. Com isso, pensamos na criação de uma plataforma para auxiliar os empreendedores e micro empreendedores donos de cinemas independentes a alcançarem um público digital.
+O Kine Indie é uma plataforma pensada para auxiliar os empreendedores e micro empreendedores donos de cinemas independentes a alcançarem um público digital. A idealização do projeto surgiu a partir da problemática dos grandes cinemas tomando conta do mercado e deixando aqueles com filmes de nicho menos popularizados, muitas vezes categorizados como "filmes cult", atrás das sombras.
+
+# *Kine Indie* API
+ Nesse projeto, a ideia era a criação do produto mínimo viável de uma API Rest para web sites de cinemas independentes. 
  
  Nossa aplicação contém, incialmente, quatro entidades, que foram pensadas a partir da relevância que teriam nos cinemas atualmente. São elas: Filmes, Ingressos, Salas e Combos. Completamos a API Rest com CRUD das operações no padrão HTTP para fazermos requisições a plataforma do cinema, podendo acessar, adicionar, atualizar e deletar os elementos de cada entidade.
 
